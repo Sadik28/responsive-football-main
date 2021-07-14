@@ -1,0 +1,118 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common styles and utilites */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;  
+}
+.container{
+    display: flex;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+p.watch-button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 110px;
+}
+.banner{
+    width: 485px;
+    height: 230px;
+    margin-top: 107px;
+    margin-left: 156px;
+    color: #FFFFFF;
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 123px;
+    margin-left: 140.99px;
+}
+/* palyer image and name and styles */
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+    grid-row-gap: 27px;
+    width: 1050px;
+    margin-left: 180px;
+    margin-right: 747px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.players{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 15px 33px 15px;
+}
+.player img {
+    width: 300px;
+    height: 256px;   
+}
+/* section third utilites */
+.container-3{
+    display: flex;
+}
+.blog{
+    width: 469px;
+    height: 241px;
+    margin: 24px 0px;
+    margin-left: 182px;
+    
+    padding-right: 66px;
+    
+}
+.blogs{
+    font-size: 48px;
+    line-height: 60px;
+}
+.text{
+    font-size: 16px;
+    margin-top: -16px;
+}
+p.watch-button{
+    padding: 10px 24px;
+    color: #FFFFFF;
+}
+.match img{
+    width: 567px;
+    height: 427px;
+}
+/* last and footer part  */
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 483.87px;
+    height: 110px;
+    margin-left: 481px;
+    margin-top: 128px;
+}
+.icons{
+    justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 32px;
+  margin-left: 750px;
+  margin-top: 20px;
+  
+}
+footer{
+    display: flex;
+    margin-left: 690px;
+    font-size: 18px;
+    line-height: 24px;
+}
