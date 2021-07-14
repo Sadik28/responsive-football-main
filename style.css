@@ -22,6 +22,11 @@ h1{
     line-height: 80px;
     margin-bottom: 0;
 }
+h1:hover{
+    transform: scale(1.06);
+    transition-duration: 2s;
+    transform: translate(10px, 10px);
+}
 p.watch-button{
     background-color: #E02C6D;
     padding: 10px 24px;
@@ -39,6 +44,12 @@ p.watch-button{
     height: 438px;
     margin-top: 123px;
     margin-left: 140.99px;
+}
+.banner-image img:hover{
+    transform: scale(1.2);
+    transition-duration: 3s;
+    transition: transform 4s;
+    
 }
 /* palyer image and name and styles */
 .container-2{
