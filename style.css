@@ -117,7 +117,8 @@ p.watch-button{
     justify-content: center;
   align-items: center;
   width: 170px;
-  height: 32px;
+  height: 42px;
+  font-size: 22px;
   margin-left: 750px;
   margin-top: 20px;
   
@@ -150,4 +151,10 @@ a{
 .news .news-banner img{
     width: 277px;
     height: 217px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 688px) {
+    .container{
+        flex-direction: column;}
+    
 }
